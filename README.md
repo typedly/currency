@@ -3,7 +3,7 @@
   <img
     src="https://avatars.githubusercontent.com/u/189665258?s=400&u=712e292bae048947d1f7d2020d7d38875c40e63a&v=4"
     width="20%"
-    title="@typedly/currency - A TypeScript type definitions package for various controllers."
+    title="@typedly/currency - A TypeScript type definitions package for currency."
   />
 </a>
 
@@ -148,21 +148,21 @@ MIT © typedly ([license][typedly-license])
 
 <!-- This package: typedly  -->
   <!-- GitHub: badges -->
-  [typedly-badge-issues]: https://img.shields.io/github/issues/typedly/controller
-  [typedly-badge-forks]: https://img.shields.io/github/forks/typedly/controller
-  [typedly-badge-stars]: https://img.shields.io/github/stars/typedly/controller
-  [typedly-badge-license]: https://img.shields.io/github/license/typedly/controller
+  [typedly-badge-issues]: https://img.shields.io/github/issues/typedly/currency
+  [typedly-badge-forks]: https://img.shields.io/github/forks/typedly/currency
+  [typedly-badge-stars]: https://img.shields.io/github/stars/typedly/currency
+  [typedly-badge-license]: https://img.shields.io/github/license/typedly/currency
   <!-- GitHub: badges links -->
-  [typedly-issues]: https://github.com/typedly/controller/issues
-  [typedly-forks]: https://github.com/typedly/controller/network
-  [typedly-license]: https://github.com/typedly/controller/blob/master/LICENSE
-  [typedly-stars]: https://github.com/typedly/controller/stargazers
+  [typedly-issues]: https://github.com/typedly/currency/issues
+  [typedly-forks]: https://github.com/typedly/currency/network
+  [typedly-license]: https://github.com/typedly/currency/blob/master/LICENSE
+  [typedly-stars]: https://github.com/typedly/currency/stargazers
 <!-- This package -->
 
 <!-- Package: typedly -->
   <!-- npm -->
-  [typedly-npm-badge-svg]: https://badge.fury.io/js/@typedly%2Fcontroller.svg
-  [typedly-npm-badge]: https://badge.fury.io/js/@typedly%2Fcontroller
+  [typedly-npm-badge-svg]: https://badge.fury.io/js/@typedly%2Fcurrency.svg
+  [typedly-npm-badge]: https://badge.fury.io/js/@typedly%2Fcurrency
 
 <!-- GIT -->
 [git-semver]: http://semver.org/
