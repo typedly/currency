@@ -72,7 +72,7 @@ import {
 ### `AllCurrencies`
 
 ```typescript
-import { AllCurrencies } from '@typescript-package/currency';
+import { AllCurrencies } from '@typedly/currency';
 
 type MyCurrencies = AllCurrencies<'PLN' | 'CZK'>; // Includes all crypto, fiat, plus 'PLN' and 'CZK'
 let currency: MyCurrencies = 'BTC'; // valid
@@ -84,7 +84,7 @@ currency = 'PLN'; // also valid
 ### `ConversionRates`
 
 ```typescript
-import { ConversionRates } from '@typescript-package/currency';
+import { ConversionRates } from '@typedly/currency';
 
 const rates: ConversionRates<'USD' | 'EUR' | 'BTC'> = {
   USD: 1,
@@ -98,7 +98,7 @@ const rates: ConversionRates<'USD' | 'EUR' | 'BTC'> = {
 ### `CryptoCurrencies`
 
 ```typescript
-import { CryptoCurrencies } from '@typescript-package/currency';
+import { CryptoCurrencies } from '@typedly/currency';
 
 const crypto: CryptoCurrencies = 'BTC'; // valid
 const another: CryptoCurrencies = 'ETH'; // valid
@@ -109,7 +109,7 @@ const another: CryptoCurrencies = 'ETH'; // valid
 ### `FiatCurrencyToSymbol`
 
 ```typescript
-import { FiatCurrencyToSymbol } from '@typescript-package/currency';
+import { FiatCurrencyToSymbol } from '@typedly/currency';
 
 type Symbol = FiatCurrencyToSymbol<'USD'>; // "$"
 type SymbolEUR = FiatCurrencyToSymbol<'EUR'>; // "€"
@@ -122,7 +122,7 @@ const dollarSymbol: Symbol = "$";
 ### `ValueWithCurrency`
 
 ```typescript
-import { ValueWithCurrency } from '@typescript-package/currency';
+import { ValueWithCurrency } from '@typedly/currency';
 
 const amount: ValueWithCurrency<100, 'USD'> = 'USD 100';
 const price: ValueWithCurrency<'99.99', 'EUR'> = 'EUR 99.99';
